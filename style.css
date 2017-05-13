@@ -1,0 +1,45 @@
+html{
+    background: url("image/fon2.jpg");
+    height: 100%;
+}
+
+/* -----------Главная---------------*/
+#var_count, #lim_count{
+    width: 40px;
+    border-radius: 5px;
+    padding: 6px;
+}
+#func{
+    width: 60px;
+    border-radius: 5px;
+    padding: 6px;
+}
+
+#block{
+    margin: 230px  0 0 550px;
+    color: white;
+    font-size: 1.5em;
+}
+
+#header{
+    color: white;
+    font-size: 1.7em;
+    text-align: center;
+
+
+}
+
+footer{
+    margin-top: 14%;
+    width: 98%;
+    color: white;
+    float: left;
+
+}
+
+footer img{width: 25%; float: left;  }
+.right{float: right; }
+.left{
+    float: left;
+    margin-left: 10%;
+}
