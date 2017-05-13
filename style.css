@@ -3,6 +3,10 @@ html{
     height: 100%;
 }
 
+* {
+    text-align: -webkit-center;
+}
+
 /* -----------Главная---------------*/
 #var_count, #lim_count, #func{
     width: 90%;
@@ -49,7 +53,7 @@ footer img{
     margin-left: 10%;
 }
 
-table td {
+#init_table td {
     //padding-left: 10px;
     //border: 1px red solid;
     vertical-align: middle;
@@ -57,7 +61,7 @@ table td {
 
 }
 
-table tr td:nth-child(2) {
+#init_table tr td:nth-child(2) {
     width: 100px;
     text-align: -webkit-center;
 }
@@ -102,3 +106,29 @@ table tr td:nth-child(2) {
     position:relative;
     top:1px;
 }
+
+
+/*input*/
+.coef {
+    width: 30px;
+}
+#input_table, #lim_table, p {
+    color: white;
+    font-size: larger;
+    text-shadow: 1px 1px 10px black;
+}
+#input_table td {
+    height: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+

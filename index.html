@@ -11,15 +11,15 @@
 
 </header>
 
-<form>
+<form action="input.php" method="get">
     <div id="block">
-        <table>
+        <table id="init_table">
             <tr>
                 <td>
                     <label for="var_count">Кількість змінних</label>
                 </td>
                 <td>
-                    <input autofocus type="number" name="var_count" id="var_count" min="1">
+                    <input autofocus type="number" name="var_count" id="var_count" min="1" required>
                 </td>
             </tr>
             <tr>
@@ -27,7 +27,7 @@
                     <label for="lim_count">Кількість обмежень</label>
                 </td>
                 <td>
-                    <input type="number" name="lim_counte" id="lim_count" min="1">
+                    <input type="number" name="lim_count" id="lim_count" min="1" required>
                 </td>
             </tr>
             <tr>
@@ -35,7 +35,7 @@
                     <label for="func">Функція</label>
                 </td>
                 <td>
-                    <select name="func" id="func">
+                    <select name="func" id="func" required>
                         <option>max</option>
                         <option>min</option>
                     </select>
@@ -43,7 +43,7 @@
             </tr>
             <tr>
                 <td colspan="2" id="button_td">
-                    <input type="button" id="calc" value="Підтвердити">
+                    <input type="submit" id="calc" value="Підтвердити">
                 </td>
             </tr>
         </table>
